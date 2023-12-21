@@ -6,7 +6,7 @@ Created by: Than Htike Soe
 
 </aside>
 
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled.png)
+![Untitled](ScreenShots/Untitled.png)
 
 ### 1. **Create VPC using Terraform Module**
 
@@ -16,8 +16,6 @@ Created by: Than Htike Soe
 
 - **Deploy an EC2 instance within the VPC and associate an Elastic IP to ensure a static public IP address.**
 
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled%201.png)
-
 ### 3. Configure Nginx, Laravel and Aurora RDS(MySQL)
 
 - **Configure and install the Nginx web server on the EC2 instance to handle HTTP requests.**
@@ -26,11 +24,6 @@ Created by: Than Htike Soe
 - ****************Create security group to get access from EC2 instance only.****************
 - **Establish a connection between the Laravel application and the Aurora RDS database, ensuring proper credentials and security measures are implemented**
 
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled%202.png)
-
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled%203.png)
-
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled%204.png)
 
 ### 4. **Edit Framework with PHP Code as Todo List App**
 
@@ -42,12 +35,12 @@ Created by: Than Htike Soe
 
 ### The result is as per below
 
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled%205.png)
+![Untitled](ScreenShots/Untitled%205.png)
 
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled%206.png)
+![Untitled](ScreenShots/Untitled%206.png)
 
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled%207.png)
+![Untitled](ScreenShots/Untitled%207.png)
 
-![Untitled](Assginmet%20for%20Devops%20Trainee%20e0bf24b8f3984282bd3438b66960b62c/Untitled%208.png)
+![Untitled](ScreenShots/Untitled%208.png)
 
 **The submission includes documentation, scripts, and relevant files adhering to the assignment requirements. The completed assignment demonstrates proficiency in cloud infrastructure setup, web server configuration, and web application development using the Laravel framework.**
