@@ -1,0 +1,61 @@
+service nginx status
+
+apt update
+apt install nginx -y
+
+service nginx start
+
+## add extention
+php version
+apt install php8.1-fpm -y
+apt install php8.1-mbstring -y
+apt install php8.1-xml -y
+apt install php8.1-zip -y
+apt install php8.1-mysql -y
+apt install php8.1-curl -y
+
+
+## install DB
+apt install mysql-server mysql-common mysql-client
+service mysql start
+mysql -u root -h localhost
+
+
+## install composer
+apt install curl
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+
+cd ..
+
+composer create-project laravel/laravel <project-name>
+
+cd project-name
+ls
+
+php artisan list
+php artisan serve
+php artisan serve --host=0.0.0.0 --port=80
+
+## move poject file to /var/www/html/
+
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default 
+
+cd /etc/nginx/site-available
+nano default
+## chage = root /var/www/html/project/public
+## add php.index
+## change php version
+
+ln -s /etc/nginx/site-available/default /etc/nginx/site-enable/default 
+
+service.
+
+chown -R www-data:www-data /var/www/html/project-test/storage/logs
+
+chown -R www-data:www-data /var/www/html/project-test/storage/framework
+
+
+## cp the laravel source file and go to this file
+## to add table in mysql
+php artisan migrate 
